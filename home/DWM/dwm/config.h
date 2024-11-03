@@ -118,7 +118,7 @@ static const Key keys[] = {
 	//Apps
 		
 	{ MODKEY,			XK_p,		       spawn,	       SHCMD("st -e htop")},				  // sys monitor
-	{ ALTKEY,             XK_f,                  spawn,          SHCMD("zen-browser") },
+	{ ALTKEY,             XK_f,                  spawn,          SHCMD("brave --new-window") },
 	{ MODKEY|ShiftMask,             XK_s,                  spawn,          SHCMD("flameshot gui") },                     // screenshot MOD+Shift+S
 	{ MODKEY,                       XK_t,                  spawn,          SHCMD("st -e ranger") },                      // open file manager (Nautilus) MOD+t
 	//{ MODKEY,                       XK_t,                  spawn,          SHCMD("nautilus --new-window") },                      // open file manager (Nautilus) MOD+t

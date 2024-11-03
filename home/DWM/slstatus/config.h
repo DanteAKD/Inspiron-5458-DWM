@@ -120,7 +120,7 @@ static const struct arg args[] = {
 	  { wifi_essid,		    "%s:",			   "wlp6s0"},
 	  
 	  { downspeed, 		    " %s ",   		   "wlp6s0" },
-	 { run_command, "[V]:%s ", "wpctl get-volume @DEFAULT_AUDIO_SINK@ | awk '{print int($2 * 100)}'" },
+	 { run_command, "Vol:%s ", "wpctl get-volume @DEFAULT_AUDIO_SINK@ | awk '{print int($2 * 100)}'" },
  
 	  //{ run_command, "[V]:%s ", "amixer sget Master | tail -1 | awk '{print $5 }' | sed 's@\\(\\[\\|\\]\\)@@g'" },
 	  //{ vol_perc,	    "∢:%s%% ",	            NULL},
